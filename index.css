@@ -25,13 +25,22 @@ body{
   align-items: center;
 }
 
+
 .meeting {
   width: 100%;
   min-width: 560px;
   max-width: 760px;
   border-radius: 6px;
   box-sizing: border-box;
+  transition: all .3s ease-in-out;
 }
+
+.meeting:hover {
+  transform: translateY(-2px);
+  box-shadow: none;
+  cursor: pointer;
+}
+
 
 .upcoming.meeting {
   border: 1px solid rgba(35, 33, 35, 0.07);
